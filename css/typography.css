@@ -63,3 +63,9 @@ small, .milli {
   font-size: 0.6400rem;
   line-height: 1.5625;
 }
+
+a:link, 
+a:visited, 
+a:hover {
+	color: #0088CC;
+}
