@@ -1,17 +1,27 @@
 /*
   Colour Palette
-  - Dark green: #060 - rgb(0, 100, 0)
-  - Dark red: #600 - rgb(100, 0, 0)
+  - Light Blue: #0088CC - rgb(0, 136, 204)
+  - Navy Blue: #002C52 - rgb(0, 44, 82)
+  - Dark Brown: #522600 - rgb(82, 38, 0);
  */
 
 html {
   font: normal 100%/1 'Open Sans', sans-serif; /* 16px/16px */
 }
 
-h1, h2, h3, h4, h5, h6,
+h1, h2, h3, h4, h5, h6, small
 p, ul, ol, dl,
 blockquote, table, hr {
   margin: 0 0 1rem;
+}
+
+h1, h2, h3, h4, h5, h6, small
+blockquote, table, hr {
+	color:#522600;
+}
+
+p, ul, ol, dl, {
+	color:#002C52;
 }
 
 .yotta {
@@ -64,8 +74,13 @@ small, .milli {
   line-height: 1.5625;
 }
 
-a:link, 
+a:link,
 a:visited, 
-a:hover {
+a:active{
+	text-decoration: none;
 	color: #0088CC;
+}
+
+a:hover {
+	color: #522600;
 }
