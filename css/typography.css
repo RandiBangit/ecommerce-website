@@ -84,3 +84,7 @@ a:active{
 a:hover {
 	color: #522600;
 }
+
+mark {
+  background-color: #0088CC;
+}
