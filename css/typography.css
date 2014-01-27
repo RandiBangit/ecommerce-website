@@ -1,6 +1,7 @@
 /*
   Colour Palette
   - Light Blue: #0088CC - rgb(0, 136, 204)
+  - Lighter Blue: #AECBE9 - rgb(174, 203, 233);
   - Navy Blue: #002C52 - rgb(0, 44, 82)
   - Dark Brown: #522600 - rgb(82, 38, 0);
  */
@@ -22,6 +23,10 @@ blockquote, table, hr {
 
 p, ul, ol, dl {
 	color:#002C52;
+}
+
+.white {
+  color:#fff;
 }
 
 .yotta {
@@ -103,4 +108,9 @@ mark {
 
 .list-group-item-inline {
   display: inline-block;
+}
+
+.flex-img {
+  width: 100%;
+  display: block;
 }
