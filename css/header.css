@@ -1,3 +1,10 @@
+html, body{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	background-color:#FFF;
+}
+
 h1{
 	color:#002C52;
 }
@@ -15,6 +22,7 @@ h1{
 }
 
 ul {
+	padding: 0;
 	list-style-type: none;
 }
 
