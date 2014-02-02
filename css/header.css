@@ -1,0 +1,16 @@
+@media only screen and (min-width: 35em){
+	.logo{
+		float: left;
+		width: 4rem;
+		margin-left: 3rem;
+	}
+
+	.steady img{
+		float: left;
+	}
+
+	.feature{
+		overflow: auto;
+	}
+
+}
