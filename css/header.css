@@ -1,3 +1,7 @@
+.steady {
+	overflow: auto;
+}
+
 h1{
 	color:#002C52;
 }
@@ -6,6 +10,16 @@ h1{
 	width: 2rem;
 	float: left;
 	margin-left: 1rem;
+}
+
+.hide-text {
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+ul {
+	list-style-type: none;
 }
 
 .nav-btn,
@@ -35,7 +49,6 @@ h1{
 	color: #fff;
 	text-decoration: none;
 	background-color: #AECBE9;
-	border-top: 1px solid #fff;
 }
 
 .nav a:hover,
@@ -86,7 +99,7 @@ h1{
 	
 }
 
-@media only screen and (min-width: 35em){
+@media only screen and (min-width: 40em){
 	header {
 		background: #AECBE9;
 	}
