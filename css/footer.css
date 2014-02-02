@@ -10,6 +10,11 @@ ul{
 	padding: 0;
 }
 
+.copyright{
+	text-align:right;
+	padding-right: 1rem;
+}
+
 .nav a, 
 .nav a:link,
 .nav a:visited{
@@ -25,4 +30,32 @@ ul{
 .nav a:focus,
 .nav a:active{
 	background-color: #0088CC;
+}
+
+@media only screen and (min-width: 25em){
+	.logo{
+		width: 2rem;
+		float: left;
+		margin-left: 1rem;
+	}
+	
+	.nav{
+		overflow: auto;
+	}
+	
+	.nav li{
+		float: left;
+		width: 33.33%;
+	}
+	
+	.nav-btn,
+	.nav-btn:link,
+	.nav-btn:visited{
+		display: none;
+	}
+	
+	.nav-top{
+		display: block;
+	}
+	
 }
