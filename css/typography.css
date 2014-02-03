@@ -110,7 +110,17 @@ mark {
   display: inline-block;
 }
 
-.flex-img {
-  width: 100%;
+.img-flex {
   display: block;
+  width: 100%;
+}
+
+.flex-img {
+  display: block;
+  width: 100%;
+}
+
+.gutter {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
 }
